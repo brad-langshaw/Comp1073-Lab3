@@ -1,0 +1,24 @@
+{
+  "name": "BradleyLangshaw",
+  "description": "",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "Bradley Langshaw <brad.langshaw@live.ca>"
+  ],
+  "license": "MIT",
+  "homepage": "(bradlangshaw.azurewebsites.net)",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.5.0"
+  }
+}

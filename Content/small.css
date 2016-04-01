@@ -1,0 +1,191 @@
+body {
+	align-content: center;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 5px;
+	position: relative;
+	top: 0px;
+	max-width: 500px;
+	min-width: 360px;
+	width: auto;
+	height: auto;
+	background: linear-gradient(#FF5300,#B2430D);
+	color: 	white;
+	
+}
+
+#logo {
+	width: 200px;
+	position: relative;
+	top: -18px;
+	left: -50px;	
+}
+
+
+.navbar-custom{
+	align-content: center;
+	max-width:500px;
+	max-height: 100px;
+	min-height: 50px;
+	min-width:350px;
+	height: auto;
+	width: fit-content;
+	display: inline-block;
+	vertical-align: top;
+	outline-color: #B2430D;
+	background: linear-gradient(#997334 90%,#CC8416 10%);
+}
+
+.navbar-right {
+	font-size: 15pt;
+	position: relative;
+	top: -5px;
+	max-width: 450px;
+	min-width: 10px;
+	}
+	
+form#contact-me {
+	position: relative;
+	width: 400px;
+	height: auto;
+	
+}
+
+a img.projectimg{
+	width: 300px;
+	height: auto;
+}
+
+img#selfie{
+	position: relative;
+	max-width: 200px;
+}
+
+#firstParagraph{
+	text-align: left;
+}
+
+input[type=text].contact_inputs {
+	color:black;
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+	color: #15CC61;
+	background: linear-gradient(#FF5300, #CC8416);
+}
+
+textarea{
+	color:black;
+}
+
+
+
+div.navbar-inner div.container ul.nav span a:link{
+	color: #15CC61;
+	font-size: 13pt;
+}
+
+
+div.navbar-inner div.container ul.nav span a:hover{
+	color: #15CC61;
+	font-size: 13pt;
+	background: #997334;
+	text-decoration: none;
+}
+
+div.navbar-inner div.container ul.nav span a:active{
+	color: #15CC61;
+	font-size: 13pt;
+	background: #B2430D;
+
+}
+
+div.navbar-inner div.container ul.nav span a:visited{
+	color: #15CC61;
+	font-size: 13pt;
+}
+
+#navbar_anchor_point{
+	position: relative;
+	height: 300px;
+	width: 300px;
+	background: green;
+	top: 0px;
+	right: -400px;
+}
+.icon-bar .fa-home{
+	position: relative;
+	left: 8px;
+	top: -60px;	
+	color: #15CC61;
+	font-size: 45pt;
+}
+
+#myprojects-small{
+	position: relative;	
+		
+}
+#contact{
+	position: relative;
+	bottom: -20px;		
+}
+
+.navbar-toggle {
+	z-index: 0;
+	position: relative;
+	top:0px;
+	left: 100px;
+}
+
+.fa-bars{	
+	font-size: 40pt;
+	position: relative;
+	left: -90px;
+	color:#15CC61;
+}
+
+div.collapse ul.nav li a:link {
+	
+	background: linear-gradient(#997334 90%,#CC8416 10%);
+	color: #15CC61;
+}
+
+/* visited link */
+div.collapse ul.nav li a:visited {
+    background: linear-gradient(#997334 90%,#CC8416 10%);
+	color: #15CC61;
+}
+
+/* mouse over link */
+div.collapse ul.nav li a:hover {
+	background: -webkit-linear-gradient(#FF5C01 90%, #997334 10%);
+	background: -o-linear-gradient(#FF5C01 90%, #997334 10%);
+	background: linear-gradient(#FF5C01 90%, #997334 10%);
+	color: #084A23;
+}
+
+/* selected link */
+div.collapse ul.nav li a:active {
+	background: -webkit-linear-gradient(#997334 90%, #CC8416 10%);
+	background: -o-linear-gradient(#997334 90%, #CC8416 10%);
+	background: linear-gradient(#997334 90%, #CC8416 10%);
+}
+
+
+#content{
+	max-width: 960px;
+	background: #084A23;
+}
+
+#footer{
+	max-width: 1080px;
+	min-width: 300px;
+	background: -webkit-linear-gradient(#CC8416 10%, #997334 90%);
+	background: -o-linear-gradient(#CC8416 10%, #997334 90%);
+	background: linear-gradient(#CC8416 10%, #997334 90%);
+
+
+}

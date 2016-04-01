@@ -1,0 +1,128 @@
+/* custom style sheet */
+
+body {
+	align-content: center;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 5px;
+	position: relative;
+	top: 0px;
+	max-width: 1080px;
+	min-width: 700px;
+	min-height: 700px;
+	width: auto;
+	height: auto;
+	background: linear-gradient(#FF5300,#B2430D);
+	color: 	white;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#logo {
+	position: relative;
+	top: -20px;
+	right: 20px; 
+	color: #15CC61;
+	
+}
+
+
+.navbar-custom{
+	align-content: center;
+	max-width:1080px;
+	display: inline-block;
+	vertical-align: top;
+	outline-color: #B2430D;
+	background: linear-gradient(#997334 90%,#CC8416 10%);
+}
+
+.navbar-right {
+	font-size: 15pt;
+	position: relative;
+	top: -5px;
+	max-width: 400px;
+	min-width: 400px;
+}
+
+
+div.collapse ul.nav li a:link {
+	
+	background: linear-gradient(#997334 90%,#CC8416 10%);
+	color: #15CC61;
+}
+
+/* visited nav */
+div.collapse ul.nav li a:visited {
+    background: linear-gradient(#997334 90%,#CC8416 10%);
+	color: #15CC61;
+}
+
+/* mouse over nav */
+div.collapse ul.nav li a:hover {
+    background: linear-gradient(#FF5C01 90%,#997334 10%);
+	color: #084A23;
+}
+
+/* selected nav */
+div.collapse ul.nav li a:active {
+	background: -webkit-linear-gradient(#997334 90%, #CC8416 10%);
+	background: -o-linear-gradient(#997334 90%, #CC8416 10%);
+	background: linear-gradient(#997334 90%, #CC8416 10%);
+}
+
+form#contact-me {
+	position: relative;
+	right:-225px;
+	width: 400px;
+	height: auto;
+	
+}
+
+input[type=text].contact_inputs {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	color: black;
+}
+
+img#selfie{
+	position: relative;
+	top: 100px;
+	right:-550px;
+	max-width: 300px;
+}
+
+#firstParagraph{
+	text-align: left;
+	position: relative;
+	right: -100px;
+	top: -200px;
+	width: 400px;
+}
+
+textarea{
+	color:black;
+}
+
+input[type=submit]{
+	color: #15CC61;
+	background: linear-gradient(#FF5300, #CC8416);
+}
+
+#content{
+	max-width: 960px;
+	min-height: 400px;
+	background: #084A23;
+}
+
+#footer{
+	position: relative;
+	top: 60px;
+	min-height: 40px;
+	max-height: 500px;
+	max-width: 1080px;
+	min-width: 300px;
+	background: -webkit-linear-gradient(#CC8416 10%, #997334 90%);
+	background: -o-linear-gradient(#CC8416 10%, #997334 90%);
+	background: linear-gradient(#CC8416 10%, #997334 90%);
+}

@@ -1,0 +1,133 @@
+body {
+    align-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px;
+    position: relative;
+    top: 0px;
+    max-width: 1080px;
+    min-width: 960px;
+    min-height: 700px;
+    width: auto;
+    height: auto;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #103E7F, #E5F0FF, #103E7F);
+    background: -o-linear-gradient(left, #103E7F, #E5F0FF, #103E7F);
+    background: linear-gradient(to right, #103E7F, #E5F0FF, #103E7F); 
+    color: 	#4B617F;
+    margin-left: 375px;
+    margin-right: 100px;
+}
+
+#content {
+    position: relative;
+    top: -80px;
+    background: #1963CC;
+}
+
+#insidecontent {
+    margin: 20px;
+    height: 700px;
+}
+
+
+div.row-fluid{
+    background: #E5F0FF;
+}
+
+div#footer{
+    position: relative;
+    top: -150px;
+    height: 200px;
+    background:  #1963CC;
+    margin-bottom: 100px;
+    }
+
+#insidefooter{
+    padding-top: 70px;
+    height: 190px;  
+}
+
+#selfiecontainer{
+    position: relative;
+    right: -250px;
+    transform: rotate(20deg);
+    border: solid #4B617F;
+    background: #fff;
+    max-width: 410px;
+    max-height: 490px;
+}
+
+#selfie {
+    margin-top: 10px;
+    width: 375px;
+    
+}
+
+p#firstParagraph {
+    max-width: 500px;
+    text-align: left;
+    position: relative;
+    top: -450px;
+    right: -80px;
+    
+}
+
+#handwriting {
+    position: relative;
+    top: -10px;
+    left: -40px;
+    width: 700px;
+    height: auto;
+}
+
+ul.nav {
+   position: relative;
+   top:95px;
+   right:100px; 
+}
+
+li.active {
+    background: #1963CC;
+}
+
+li a{
+    color: #E5F0FF;
+}
+
+ ul#contact-info {
+    background: #103E7F;
+    position: relative;
+    top: 80px;
+    right: -375px;
+    list-style-type: none;
+    color: #E5F0FF;
+    width: 100px;
+    height: 250px;
+    padding-top: 15px;
+    padding-left: 15px;
+ }
+ 
+ div.space {
+    background:  #1963CC;
+    width: 200px;
+    height: 50px;
+ 
+ }
+ 
+ img.projectimg{
+     position: relative;
+     right: -100px;
+ }
+ 
+#smallnav{
+    position: relative;
+    right: 10000px;
+}
+
+#bignav{
+    position: relative;
+    top: -50px;
+    background: #103E7F;
+    height: 150px;
+    margin-right: -100px; 
+}

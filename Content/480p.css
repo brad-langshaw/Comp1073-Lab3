@@ -1,0 +1,161 @@
+    body {
+        align-content: center;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 5px;
+        max-width: 900px;
+        min-width: 481px;
+        min-height: 700px;
+        width: auto;
+        height: auto;
+        background: red; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, #103E7F, #E5F0FF, #103E7F);
+        background: -o-linear-gradient(left, #103E7F, #E5F0FF, #103E7F);
+        background: linear-gradient(to right, #103E7F, #E5F0FF, #103E7F); 
+        color: 	#4B617F;
+        position: relative;
+        right: -40px;
+    }
+
+    #content {
+    
+        background: #1963CC;
+    }
+
+    #insidecontent {
+        
+        margin: 20px;
+        min-height: 700px;
+        max-height: 1000px;
+    }
+
+    p#firstParagraph {
+        position: relative;
+        right: -75px;
+    }
+
+    div.row-fluid{
+        background: #E5F0FF;
+    }
+
+    div#footer{
+        height: 200px;
+        background:  #1963CC;
+        margin-bottom: 100px;
+        }
+
+    #insidefooter{
+        padding-top: 70px;
+        height: 190px;  
+    }
+
+    #selfiecontainer{
+        position: relative;
+        top: 270px;
+        left: -40px;
+        transform: rotate(0deg);
+        border: solid #4B617F;
+        background: #fff;
+        max-width: 250px;
+        max-height: 300px;
+    }
+
+    #selfie {
+        position: relative;
+        right: 5px;
+        margin-top: 10px;
+        width: 225px;
+        
+    }
+
+    p#firstParagraph {
+        max-width: 500px;
+        text-align: left;
+        position: relative;
+        top: -300px;
+        
+    }
+
+    #handwriting {
+        position: relative;
+        top: -10px;
+        left: -37px;
+        width: 450px;
+        height: auto;
+    }
+
+
+
+    li.active {
+        background: #1963CC;
+    }
+
+    li a{
+        color: #E5F0FF;
+    }
+
+    ul#contact-info {
+        background: #103E7F;
+        position: relative;
+        top: 80px;
+        right: -200px;
+        list-style-type: none;
+        color: #E5F0FF;
+        width: 100px;
+        height: 250px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    
+    div.space {
+        background:  #1963CC;
+        width: 200px;
+        height: 50px;
+    
+    }
+    
+    img.projectimg{
+        position: relative;
+        right: 00px;
+        width: 650px;
+    }
+    
+    p#project1 {
+        width: 600px;
+    }
+    p#project2 {
+        width: 600px;
+    }   
+     p#project3 {
+        width: 600px;
+    }
+    #logo{
+        position: relative;
+        left: -20px;
+    }
+
+    
+#bignav{
+    background: #103E7F;
+    margin-top: 10px;  
+    width: 800px;
+
+}
+    
+#smallnav{
+    position: relative;
+    right: 100000px;
+}
+
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+}
+    
+li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
